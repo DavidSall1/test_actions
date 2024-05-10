@@ -42,12 +42,7 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config --global user.email "dasl21@student.bth.se"
-          git config --global user.name "DavidSall1"
-          git add .
-          git commit -m "Update file"
-        
-      - name: Push changes
-        uses: ad-m/github-push-action@master
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          git config --global user.name 'DavidSall1'
+          git config --global user.email 'dasl21@student.bth.se'
+          git commit -am "Automated report"
+          git push
