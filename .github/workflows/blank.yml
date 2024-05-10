@@ -44,5 +44,6 @@ jobs:
         run: |
           git config --global user.name 'DavidSall1'
           git config --global user.email 'dasl21@student.bth.se'
+          git add -A
           git commit -am "Automated report"
           git push
