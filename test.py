@@ -2,7 +2,7 @@ import git
   
 # Clone a remote repository 
 username = "DavidSall1"
-password = "mickeodlan123"
+password = "Mickeodlan123"
 repo_url = f"https://{username}:{password}@github.com/{username}/project.git"
 local_path = "clone_repo"
 repo = git.Repo.clone_from(repo_url, local_path) 
