@@ -36,4 +36,6 @@ jobs:
           echo test, and deploy your project.
 
       - name: Run python
-        run: python test.py
+        run: |
+          pip install git
+          python test.py
